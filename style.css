@@ -108,7 +108,7 @@ header {
     background: #E6EDFF;
     padding: 6px 18px;
     border-radius: 20px;
-    min-width: 500px;
+
 }
 
 /* MAIN TEXT */
@@ -189,12 +189,15 @@ hr {
 
 /* ================= STATS ================= */
 .information-wrapper {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 60px 80px;
+    /* max-width: 1400px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    /* padding: 0 60px 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 40px;   */
 }
 
 .information-wrapper b {
@@ -493,28 +496,6 @@ hr {
     font-size: 13px;
     color: #555;
     background-color: #f9f9f9;
-}
-
-/* Mobil moslashuvchanlik */
-@media (max-width: 768px) {
-    .timeline-line {
-        left: 20px;
-    }
-
-    .timeline-item {
-        width: 100%;
-        left: 0 !important;
-        text-align: left !important;
-        padding-left: 45px;
-    }
-
-    .dot {
-        left: 14px !important;
-    }
-
-    .left .tags {
-        justify-content: flex-start;
-    }
 }
 
 .project-wrapper {
