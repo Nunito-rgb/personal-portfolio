@@ -108,7 +108,6 @@ header {
     background: #E6EDFF;
     padding: 6px 18px;
     border-radius: 20px;
-
 }
 
 /* MAIN TEXT */
@@ -302,9 +301,11 @@ hr {
 /* RIGHT CARD */
 .skills-card {
     background: #f2f4ff;
+    border-radius: 5px;
     padding: 40px;
+    /* padding: 40px;
     border-radius: 20px;
-    min-width: 360px;
+    min-width: 360px; */
 }
 
 .skills-card h3 {
@@ -369,22 +370,19 @@ hr {
     margin-bottom: 20px;
 }
 
-.project-wrapper{
+.project-wrapper-between {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-number {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #aaa;
+    color: #5c5c5c;
 }
 
 .project-info p {
     font-size: 14px;
-    color: #666;
-    margin: 10px 0;
+    color: #3f3f3f;
+    margin: 20px 0;
 }
 
 .project-tags span {
