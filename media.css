@@ -9,6 +9,14 @@
     .dev-text {
         font-size: 18px;
     }
+
+    .end-images {
+        gap: 12px;
+    }
+
+    .divider {
+        margin: 0 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -20,21 +28,33 @@
     }
 
     .content-h1-text {
-        font-size: 56px;
-        line-height: 48px;
+        font-size: 38px;
+        line-height: 45px;
     }
 
     .content-p-text {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         letter-spacing: 3%;
+    }
+
+    .main_button-1 {
+        gap: 6px;
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+
+    .main_button-2 {
+        font-size: 12px;
+        gap: 6px;
+        padding: 10px 18px;
     }
 }
 
 @media (max-width: 768px) {
     /* information */
     .number-one {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
     }
 
@@ -44,12 +64,13 @@
 }
 
 @media (max-width: 768px) {
+    /* ABOUT ME */
     .about-section {
-        padding: 100px 40px;
+        padding: 90px 0;
     }
 
     .about-title {
-        font-size: 28px;
+        font-size: 26px;
         margin-bottom: 15px;
     }
 
@@ -58,11 +79,21 @@
         line-height: 20px;
         margin-bottom: 50px;
     }
+
+    .about-left {
+        max-width: 750px;
+    }
 }
 
 @media (max-width: 768px) {
     /* FEATURES */
-    
+    .feature-card h4{
+        font-size: 13px;
+    }
+
+    .feature-card p{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 768px) {
