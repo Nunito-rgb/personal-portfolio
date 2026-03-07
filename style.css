@@ -193,10 +193,6 @@ hr {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    /* padding: 0 60px 80px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;   */
 }
 
 .information-wrapper b {
@@ -303,9 +299,6 @@ hr {
     background: #f2f4ff;
     border-radius: 5px;
     padding: 40px;
-    /* padding: 40px;
-    border-radius: 20px;
-    min-width: 360px; */
 }
 
 .skills-card h3 {
@@ -354,8 +347,7 @@ hr {
 }
 
 .portfolio-desc {
-    max-width: 420px;
-    color: #666;
+    letter-spacing: 5%;
 }
 
 .portfolio-cards {

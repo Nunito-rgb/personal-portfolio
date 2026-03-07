@@ -1,4 +1,5 @@
-@media (max-width: 768px) {
+
+@media (max-width:768px) {
     /* NAV */
     .nav {
         gap: 10px;
@@ -17,9 +18,7 @@
     .divider {
         margin: 0 20px;
     }
-}
 
-@media (max-width: 768px) {
     /* available */
     .ellipse-text {
         font-size: 14px;
@@ -49,9 +48,7 @@
         gap: 6px;
         padding: 10px 18px;
     }
-}
 
-@media (max-width: 768px) {
     /* information */
     .number-one {
         font-size: 12px;
@@ -61,9 +58,7 @@
     .number-text {
         font-size: 14px;
     }
-}
 
-@media (max-width: 768px) {
     /* ABOUT ME */
     .about-section {
         padding: 90px 0;
@@ -90,13 +85,35 @@
     .about-left {
         max-width: 800px;
     }
-}
 
+    /* Technical Arsenal RIGHT */
+    .skills-card h3{
+        font-size: 16px;
+    }
 
+    .skill-tags {
+        gap: 5px;
+    }
 
+    /* FEATURES */
+    .feature-card h4{
+        font-size: 13px;
+    }
 
-@media (max-width:768px){
-     .timeline-line {
+    .feature-card p{
+        font-size: 10px;
+    }
+
+    /* PORTFOLIO */
+    .portfolio {
+        padding: 80px 40px;
+    }
+
+    .portfolio-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-line {
         left: 20px;
     }
 
@@ -114,13 +131,12 @@
     .left .tags {
         justify-content: flex-start;
     }
-     /* PORTFOLIO */
-    .portfolio {
-        padding: 80px 40px;
-    }
 
-    .portfolio-cards {
-        grid-template-columns: 1fr;
+    .content h2{
+        font-size: 22px;
+        letter-spacing: 4%;
+        font-weight: 500;
+        line-height: 30px;
     }
 
     /* FOOTER */
@@ -128,31 +144,184 @@
         flex-direction: column;
         gap: 40px;
     }
-      /* Technical Arsenal RIGHT */
-    .skills-card h3{
-        font-size: 16px;
-    }
-
-    .skill-tags {
-        gap: 5px;
-    }
-      /* FEATURES */
-    .feature-card h4{
-        font-size: 13px;
-    }
-
-    .feature-card p{
-        font-size: 10px;
-    }
 }
 
 @media (max-width:580px){
-    .nav{
+    .nav {
         display: none;
     }
-    .information-wrapper{
+
+    .end-images {
+        gap: 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    /* AVAILABLE */
+    .ellipse-text {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .information-wrapper {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+
+    /* MAIN CRAFTING */
+    .content-h1-text {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .content-p-text {
+        font-size: 11px;
+        letter-spacing: 1%;
+    }
+
+    .number-one b{
+        font-size: 13px;
+    }
+
+    .number-text {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    /* BUTTONS */
+    .main_button-1 {
+        padding: 8px 14px;
+        font-size: 11px;
+    }
+
+    .main_button-1:hover {
+        transform: translate(3.5px, 3.5px);
+        transition: all 0.2s linear;
+    }
+
+    .main_button-2 {
+        font-size: 11px;
+        padding: 8px 14px;
+    }
+
+    .main_button-2:hover {
+        transform: translate(3.5px, 3.5px);
+        transition: all 0.2s linear;
+    }
+
+    /* FEATURES */
+    .feature-card {
+        max-width: 210px;
+    }
+
+    .icon-box {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* RIGHT TECHNICAL ARSENAL */
+    .skill-tags {
+        padding: 5px 0 15px 0;
+    }
+
+    .skill-tags span{
+        padding: 6px 12px;
+    }
+
+    .skill-tags span:hover{
+        border: 1px solid rgb(137, 156, 255);
+        transform: translate(1.5px, 1.5px);
+        transition: all 0.2s linear;
+    }
+
+    .project-wrapper-between h4{
+        font-size: 14px;
+    }
+
+    .project-info p{
+        font-size: 12px;
+    }
+
+    .project-number {
+        font-size: 14px;
+    }
+
+    /* PORTFOLIO */
+    .section-label {
+        font-size: 11;
+        letter-spacing: 0px;
+    }
+
+    .selected-h2 {
+        font-size: 15px;
+    }
+
+    .portfolio-desc {
+        font-size: 11px;
+        letter-spacing: 1%;
+    }
+
+    /* CARDS span */
+    .project-tags span{
+        font-size: 11px;
+    }
+
+    /* NEXT PROJECT */
+    .project-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-content h1 {
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 0%;
+        line-height: 28px;
+    }
+
+    .project-content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .project-button {
+        font-size: 14px;
+        width: 120px;
+        height: 40px;
+    }
+
+    /* FOOTER */
+    .footer-content h1 {
+        font-size: 28px;
+    }
+
+    .footer-button {
+        padding: 9px 12px;
+        font-size: 12px;
+    }
+
+    .footer-right-wrapper div{
+        font-size: 12px;
+    }
+
+    .footer-right-wrapper p{
+        line-height: 24px;
+    }
+
+    /* FOOTER PRIVACY */
+    .privacy-wrapper {
+        padding-bottom: 45px;
+    }
+
+    .alex-dev {
+        font-size: 10px;
+    }
+
+    .privacy-text {
+        font-size: 12px;
+        gap: 20px;
     }
 }
